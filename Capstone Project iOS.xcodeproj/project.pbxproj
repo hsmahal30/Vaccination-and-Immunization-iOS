@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		C76CD90C2608F7A800D4DEEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76CD90B2608F7A800D4DEEB /* AppDelegate.swift */; };
 		C76CD90E2608F7A800D4DEEB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76CD90D2608F7A800D4DEEB /* SceneDelegate.swift */; };
-		C76CD9102608F7A800D4DEEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76CD90F2608F7A800D4DEEB /* ViewController.swift */; };
+		C76CD9102608F7A800D4DEEB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76CD90F2608F7A800D4DEEB /* HomeViewController.swift */; };
 		C76CD9132608F7A800D4DEEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76CD9112608F7A800D4DEEB /* Main.storyboard */; };
 		C76CD9152608F7A900D4DEEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76CD9142608F7A900D4DEEB /* Assets.xcassets */; };
 		C76CD9182608F7A900D4DEEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76CD9162608F7A900D4DEEB /* LaunchScreen.storyboard */; };
+		C7B40537261101BE005C4EA0 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B40536261101BE005C4EA0 /* DataViewController.swift */; };
+		C7B4053A261101ED005C4EA0 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B40539261101ED005C4EA0 /* NotificationsViewController.swift */; };
+		C7B4053D26110200005C4EA0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4053C26110200005C4EA0 /* SettingsViewController.swift */; };
+		C7B4054326110354005C4EA0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4054226110354005C4EA0 /* LoginViewController.swift */; };
+		C7B4054726110369005C4EA0 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4054626110369005C4EA0 /* RegistrationViewController.swift */; };
+		C7B4054A261103C0005C4EA0 /* VaccineRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B40549261103C0005C4EA0 /* VaccineRecordViewController.swift */; };
+		C7B4054D261103D2005C4EA0 /* AppointmentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4054C261103D2005C4EA0 /* AppointmentsViewController.swift */; };
+		C7B40550261103FE005C4EA0 /* TestResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4054F261103FE005C4EA0 /* TestResultsViewController.swift */; };
+		C7B4055326110412005C4EA0 /* FindProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4055226110412005C4EA0 /* FindProviderViewController.swift */; };
+		C7B405562611041F005C4EA0 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B405552611041F005C4EA0 /* FAQViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C76CD9082608F7A800D4DEEB /* Capstone Project iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Capstone Project iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76CD90B2608F7A800D4DEEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C76CD90D2608F7A800D4DEEB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C76CD90F2608F7A800D4DEEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C76CD90F2608F7A800D4DEEB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C76CD9122608F7A800D4DEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C76CD9142608F7A900D4DEEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C76CD9172608F7A900D4DEEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C76CD9192608F7A900D4DEEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7B40536261101BE005C4EA0 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C7B40539261101ED005C4EA0 /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		C7B4053C26110200005C4EA0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C7B4054226110354005C4EA0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C7B4054626110369005C4EA0 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		C7B40549261103C0005C4EA0 /* VaccineRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccineRecordViewController.swift; sourceTree = "<group>"; };
+		C7B4054C261103D2005C4EA0 /* AppointmentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsViewController.swift; sourceTree = "<group>"; };
+		C7B4054F261103FE005C4EA0 /* TestResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultsViewController.swift; sourceTree = "<group>"; };
+		C7B4055226110412005C4EA0 /* FindProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindProviderViewController.swift; sourceTree = "<group>"; };
+		C7B405552611041F005C4EA0 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,81 @@
 		C76CD90A2608F7A800D4DEEB /* Capstone Project iOS */ = {
 			isa = PBXGroup;
 			children = (
-				C76CD90B2608F7A800D4DEEB /* AppDelegate.swift */,
-				C76CD90D2608F7A800D4DEEB /* SceneDelegate.swift */,
-				C76CD90F2608F7A800D4DEEB /* ViewController.swift */,
-				C76CD9112608F7A800D4DEEB /* Main.storyboard */,
-				C76CD9142608F7A900D4DEEB /* Assets.xcassets */,
-				C76CD9162608F7A900D4DEEB /* LaunchScreen.storyboard */,
+				C7B405322611014E005C4EA0 /* Controllers */,
+				C7B4053126110146005C4EA0 /* Resources */,
+				C7B405302611013E005C4EA0 /* Views */,
+				C7B4052F2611012E005C4EA0 /* Models */,
 				C76CD9192608F7A900D4DEEB /* Info.plist */,
 			);
 			path = "Capstone Project iOS";
+			sourceTree = "<group>";
+		};
+		C7B4052F2611012E005C4EA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C7B405302611013E005C4EA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7B405342611017E005C4EA0 /* Storyboards */,
+				C76CD9142608F7A900D4DEEB /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C7B4053126110146005C4EA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD90B2608F7A800D4DEEB /* AppDelegate.swift */,
+				C76CD90D2608F7A800D4DEEB /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C7B405322611014E005C4EA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C7B40541261102FE005C4EA0 /* Sign Up */,
+				C7B4053F2611026E005C4EA0 /* Core Tabs */,
+				C7B40549261103C0005C4EA0 /* VaccineRecordViewController.swift */,
+				C7B4054C261103D2005C4EA0 /* AppointmentsViewController.swift */,
+				C7B4054F261103FE005C4EA0 /* TestResultsViewController.swift */,
+				C7B4055226110412005C4EA0 /* FindProviderViewController.swift */,
+				C7B405552611041F005C4EA0 /* FAQViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C7B405342611017E005C4EA0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9112608F7A800D4DEEB /* Main.storyboard */,
+				C76CD9162608F7A900D4DEEB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C7B4053F2611026E005C4EA0 /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD90F2608F7A800D4DEEB /* HomeViewController.swift */,
+				C7B40539261101ED005C4EA0 /* NotificationsViewController.swift */,
+				C7B4053C26110200005C4EA0 /* SettingsViewController.swift */,
+				C7B40536261101BE005C4EA0 /* DataViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		C7B40541261102FE005C4EA0 /* Sign Up */ = {
+			isa = PBXGroup;
+			children = (
+				C7B4054226110354005C4EA0 /* LoginViewController.swift */,
+				C7B4054626110369005C4EA0 /* RegistrationViewController.swift */,
+			);
+			path = "Sign Up";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +223,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C76CD9102608F7A800D4DEEB /* ViewController.swift in Sources */,
+				C7B4054326110354005C4EA0 /* LoginViewController.swift in Sources */,
+				C7B4053A261101ED005C4EA0 /* NotificationsViewController.swift in Sources */,
+				C7B4054726110369005C4EA0 /* RegistrationViewController.swift in Sources */,
+				C7B40537261101BE005C4EA0 /* DataViewController.swift in Sources */,
+				C7B405562611041F005C4EA0 /* FAQViewController.swift in Sources */,
+				C7B4054D261103D2005C4EA0 /* AppointmentsViewController.swift in Sources */,
+				C76CD9102608F7A800D4DEEB /* HomeViewController.swift in Sources */,
+				C7B40550261103FE005C4EA0 /* TestResultsViewController.swift in Sources */,
+				C7B4054A261103C0005C4EA0 /* VaccineRecordViewController.swift in Sources */,
+				C7B4055326110412005C4EA0 /* FindProviderViewController.swift in Sources */,
 				C76CD90C2608F7A800D4DEEB /* AppDelegate.swift in Sources */,
 				C76CD90E2608F7A800D4DEEB /* SceneDelegate.swift in Sources */,
+				C7B4053D26110200005C4EA0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
