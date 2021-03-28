@@ -23,6 +23,7 @@
 		C7B40550261103FE005C4EA0 /* TestResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4054F261103FE005C4EA0 /* TestResultsViewController.swift */; };
 		C7B4055326110412005C4EA0 /* FindProviderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4055226110412005C4EA0 /* FindProviderViewController.swift */; };
 		C7B405562611041F005C4EA0 /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B405552611041F005C4EA0 /* FAQViewController.swift */; };
+		C7B4055926110578005C4EA0 /* PatientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B4055826110578005C4EA0 /* PatientModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		C7B4054F261103FE005C4EA0 /* TestResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultsViewController.swift; sourceTree = "<group>"; };
 		C7B4055226110412005C4EA0 /* FindProviderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindProviderViewController.swift; sourceTree = "<group>"; };
 		C7B405552611041F005C4EA0 /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
+		C7B4055826110578005C4EA0 /* PatientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 		C7B4052F2611012E005C4EA0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C7B4055826110578005C4EA0 /* PatientModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				C7B4054326110354005C4EA0 /* LoginViewController.swift in Sources */,
 				C7B4053A261101ED005C4EA0 /* NotificationsViewController.swift in Sources */,
 				C7B4054726110369005C4EA0 /* RegistrationViewController.swift in Sources */,
+				C7B4055926110578005C4EA0 /* PatientModel.swift in Sources */,
 				C7B40537261101BE005C4EA0 /* DataViewController.swift in Sources */,
 				C7B405562611041F005C4EA0 /* FAQViewController.swift in Sources */,
 				C7B4054D261103D2005C4EA0 /* AppointmentsViewController.swift in Sources */,
